@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"940790be134ff29e","x":-858,"y":260,"width":400,"height":400,"color":"5","type":"file","file":"Festival Planung/Index.md"},
+		{"id":"9270519706f2fb29","x":120,"y":-660,"width":400,"height":400,"color":"3","type":"file","file":"Festival Planung/Anreise.md"},
+		{"id":"ba54de7c802387ab","type":"file","file":"Festival Planung/Wichtige Infos.md","x":-820,"y":-720,"width":400,"height":400,"color":"4"},
+		{"id":"8039d9f551052547","x":-1900,"y":-660,"width":400,"height":740,"color":"1","type":"file","file":"Vorbereitung.md"}
+	],
+	"edges":[
+		{"id":"3d8f6b3a6a3f37d7","fromNode":"8039d9f551052547","fromSide":"right","toNode":"ba54de7c802387ab","toSide":"left","color":"6"},
+		{"id":"e924005f11a5d3b2","fromNode":"ba54de7c802387ab","fromSide":"right","toNode":"9270519706f2fb29","toSide":"left","color":"5"},
+		{"id":"89660d20a9906fdd","fromNode":"9270519706f2fb29","fromSide":"bottom","toNode":"940790be134ff29e","toSide":"top","color":"4"},
+		{"id":"e2fcfcb8421808c2","fromNode":"940790be134ff29e","fromSide":"top","toNode":"ba54de7c802387ab","toSide":"bottom","color":"2"},
+		{"id":"9fd4fce2c1605a1f","fromNode":"940790be134ff29e","fromSide":"right","toNode":"9270519706f2fb29","toSide":"bottom","color":"2"},
+		{"id":"bb6f84ee452a5a42","fromNode":"940790be134ff29e","fromSide":"left","toNode":"8039d9f551052547","toSide":"bottom","color":"2"}
+	]
+}
